@@ -16,7 +16,7 @@ Aqui estão alguns dos recursos mais interessantes do **Slidev**:
 
 O **Slidev** usa um formato de Markdown extendido para armazenar todos os teus slides num único ficheiro de texto simples. Assim consegues estar focado apenas no conteúdo. E como o conteúdo e os estilos estão separados, isso torna possível alternar entre diferentes temas sem esforço.
 
-Leia mais sobre [Sintaxe de Markdown do Slidev](/guide/syntax).
+Sabe mais sobre [Sintaxe de Markdown do Slidev](/guide/syntax).
 
 ## Uso de Temas
 
@@ -24,11 +24,12 @@ Os temas para o **Slidev** podem ser partilhados e instalados através de *packa
 
 Conheça a nossa [galeria de temas][/themes/gallery] ou [saiba como criar o seu tema](/themes/write-a-theme).
 
-## Developer Friendly
+## Amigo dos Desenvolvedores
 
-Slidev provides first-class support for code snippets for developers. It supports both [Prism](https://prismjs.com/) and [Shiki](https://github.com/shikijs/shiki) to get pixel perfect syntax highlighting, while still being able to modify the code at any time. With [Monaco editor](https://microsoft.github.io/monaco-editor/) built-in, it also empowers you to do live coding / demonstration in your presentation with autocompletion, type hovering, and even TypeScript type check support.
+O **Slidev** fornece suporte a *snippets* de código para desenvolvedores. Este suporta **Prism** e **Shiki** para apresentar código realçado de acordo com a sua sintaxe, podendo ainda modificar o código a qualquer momento. Com o editor **Monaco** integrado, é possível fazer desenvolvimento de código ou demonstrações ao vivo em primeira mão, com *autocomplete* e até mesmo suporte a verificações do **TypeScript**.
 
-Learn more about [highlighters](/custom/highlighters) and [Monaco configuration](/custom/config-monaco).
+Sabe mais sobre [highlighters de código](/custom/highlighters) e [configuração do Monaco](/custom/config-monaco).
+
 
 ## Rápido
 
@@ -37,9 +38,9 @@ O **Slidev** conta com [Vite](https://vitejs.dev/), [Vue 3](https://v3.vuejs.org
 
 Saiba mais sobre a [stack tecnológica utilizada](/guide/#tech-stack).
 
-## Interactive & Expressive
+## Interativo & Expressivo
 
-You can write custom Vue components and use them directly inside your markdown file. You can also interact with them inside the presentation to express your idea in a more interesting and intuitive way.
+Consegues escrever componentes em **Vue** e usar diretamente no ficheiro markdown. Podes também interagir com estes dentro da apresentação para expressar ideias de uma forma intuitiva e mais interessante.
 
 ## Suporta Gravação
 
@@ -47,15 +48,15 @@ O **Slidev** conta com gravação integrada, bem como visualização da câmera.
 
 Sabe mais sobre [gravação da tua apresentação aqui](/guide/recording).
 
-## Portable
+## Portátil
 
-Export your slides into PDF, PNGs, or even a hostable Single-page Application (SPA) with a single command, and share them anywhere.
+Exporte os teus slides para **PDF**, **PNGs**, ou então uma *Single-page Application* (SPA) hospedada online com apenas um comando e, partilha a tua apresentação em qualquer lugar.
 
-Read more about that in the [exporting docs](/guide/exporting).
+Sabe mais sobre [como exportar a tua apresentação](/guide/exporting).
 
-## Hackable
+## Hackeavel
 
-Being powered by web technologies, anything that can be done in a web app is also possible with Slidev. For example, WebGL, API requests, iframes, or even live sharing. It's up to your imagination!
+Uma vez que o **Slidev** é construído por tecnologias web, é possível realizar qualquer coisa que seja possível realizar num projeto web comum. Por exemplo WebGL, solicitações a uma API, iframes ou até mesmo partilha ao vivo. A tua imaginação é o limite!
 
 ## Dá uma chance
 
