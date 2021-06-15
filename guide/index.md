@@ -56,50 +56,51 @@ $ yarn create slidev
 
 Segue as instruções e começa a fazer os teus slides agora! Para mais detalhes sobre a sintaxe em markdown, lê o [guia de sintaxe](/guide/syntex)
 
-### Command Line Interface
+### Linha de Comandos
 
-In a project where Slidev is installed, you can use the `slidev` binary in your npm scripts.
+Num projeto onde o **Slidev** está instalado, podes utilizar o binário `slidev` nos teus *scripts* npm.
+
 
 ```json
 {
   "scripts": {
-    "dev": "slidev", // start dev server
-    "build": "slidev build", // build for production SPA
-    "export": "slidev export" // export slides to pdf
+    "dev": "slidev", // iniciar servidor de desenvolvimento
+    "build": "slidev build", // build do projeto para produção
+    "export": "slidev export" // exportção para PDF
   }
 }
 ```
 
-Otherwise, you can use it with [`npx`](https://www.npmjs.com/package/npx)
+Ou então, podes também usar com o [`npx`](https://www.npmjs.com/package/npx)
 
 ```bash
 $ npx slidev
 ```
 
-Run `slidev --help` for more options available.
+Executa o comando `slidev --help` para saberes todas as opções disponíveis.
 
-### Markdown Syntax
+### Sintaxe Markdown
 
-Slidev reads your `slides.md` file under your project root and converts them into slides. Whenever you made changes to it, the content of the slides will be updated immediately. For example:
+O **Slidev** lê o teu ficheiro `slides.md` na raiz do teu projeto e converte em slides. Sempre que realizares alguma alteração, o conteúdo dos slides será atualizado de forma automática. Por exemplo:
 
 ~~~md
 # Slidev
 
-Hello World
+Olá Mundo
 
 ---
 
-# Page 2
+# Página 2
 
-Directly use code blocks for highlighting
+Uso directo de blocos de código com highlight da sintaxe
 
 //```ts
-console.log('Hello, World!')
+console.log('Olá, Mundo!')
 //```
 
 ---
 
-# Page 3
+# Página 3
 ~~~
 
-Read more about the Slidev Markdown syntax in the [syntax guide](/guide/syntax).
+Sabe mais sobre a sintaxe Markdown utilizada no [guia de sintaxe](/guide/syntax).
