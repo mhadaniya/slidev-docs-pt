@@ -1,59 +1,60 @@
-# Getting Started
+# Começar
 
-## Overview
+## Visão Geral
 
-Slidev <sup>(slide + dev, `/slʌɪdɪv/`)</sup> is a web-based slides maker and presenter. It's designed for developers to focus on writing content in Markdown while also having the power of HTML and Vue components to deliver pixel-perfect layouts and designs with embedded interactive demos in your presentations.
+O **Slidev** <sup>(slide + dev, `/slʌɪdɪv/`)</sup> é uma criador e apresentador de slides baseado em tecnologias web. O **Slidev** foi projetado para que desenvolvedores concentrem-se essencialmente em escrever conteúdo em Markdwon e, ao mesmo tempo, ter a possibilidade de utilizar componentes HTML e Vue para fornecer *layouts* e *designs* perfeitos e demonstrações interativas.
 
-It uses a feature-rich markdown file to generate beautiful slides with an instant reloading experience, along with many built-in integrations such as live coding, PDF exporting, presentation recording, and so on. Since it's powered by the web, you can do anything with Slidev - the possibilities are endless.
+Este usa um arquivo Markdown rico em recursos que permite gerar slides bonitos com *refresh* automático instantâneo, junto com várias integrações possíveis, desde desenvolvimento de código ao vivo, exportação pada PDF, gravação da apresentação, entre outros. Como o **Slidev** tem como por base tecnologias web é possível fazer qualquer coisa, a tua imaginação é o limite.
 
-You can learn more about the rationale behind the project in the [Why Slidev](/guide/why) section.
+Para saber mais sobre a lógica por baixo dos panos basta aceder à secção [Why Slidev](/guid/why).
 
-### Features
 
-- 📝 [**Markdown-based**](/guide/syntax.html) - use your favorite editors and workflow
-- 🧑‍💻 [**Developer Friendly**](/guide/syntax.html#code-blocks) - built-in syntax highlighting, live coding, etc.
-- 🎨 [**Themable**](/themes/gallery.html) - theme can be shared and used with npm packages
-- 🌈 [**Stylish**](/guide/syntax.html#embedded-styles) - [Windi CSS](https://windicss.org/) on-demand utilities, easy-to-use embedded stylesheets
-- 🤹 [**Interactive**](/custom/directory-structure.html#components) - embedding Vue components seamlessly
-- 🎙 [**Presenter Mode**](/guide/presenter-mode.html) - use another window, or even your phone to control your slides
-- 🧮 [**LaTeX**](/guide/syntax.html#latex) - Built-in LaTeX math equations support
-- 📰 [**Diagrams**](/guide/syntax.html#diagrams) - Creates diagrams with textual descriptions 
-- 🌟 [**Icons**](/guide/syntax.html#icons) - Access to icons from any iconset directly
-- 💻 [**Editors**](/guide/editors.html) - Integrated editor, or [extension for VS Code](https://github.com/slidevjs/slidev-vscode)
-- 🎥 [**Recording**](/guide/recording.html) - built-in recording and camera view
-- 📤 [**Portable**](/guide/exporting.html) - export into PDF, PNGs, or even a hostable SPA
-- ⚡️ [**Fast**](https://vitejs.dev) - instant reloading powered by [Vite](https://vitejs.dev)
-- 🛠 [**Hackable**](/custom/config-vite.html) - using Vite plugins, Vue components, or any npm packages
+### Funcionalidades
 
-### Tech Stack
+- 📝 [**Baseado em Markdown**](/guide/syntax.html) - usa os teus editores favoritos e melhora o teu workflow
+- 🧑‍💻 [**Amigo dos Desenvolvedores**](/guide/syntax.html#code-blocks) - com desenvolvimento de código ao vivo, destaque de sintaxe, etc.
+- 🎨 [**Possibilidade de usar temas**](/themes/gallery.html) - tema pode ser partilhado e utilizado através de packages npm
+- 🌈 [**Estiloso**](/guide/syntax.html#embedded-styles) - [Windi CSS](https://windicss.org/) estilos CSS incorporados e de fácil utilização, bem como diversas ferramentas
+- 🤹 [**Interativo**](/custom/directory-structure.html#components) - incorporação de componentes Vue com facilidade e sem problemas
+- 🎙 [**Modo Apresentador**](/guide/presenter-mode.html) - use outra janela, ou até mesmo um smartphone para controlar a tua apresentação
+- 🧮 [**LaTeX**](/guide/syntax.html#latex) - Conta com suporte integrado para equações matemáticas utilizando Latex
+- 📰 [**Diagramas**](/guide/syntax.html#diagrams) - Criação de diagramas com descrições textuais
+- 🌟 [**Ícones**](/guide/syntax.html#icons) - Acessa qualquer ícone de qualquer conjunto de ícones diretamente
+- 💻 [**Editores**](/guide/editors.html) - Editor integrado, ou [extensão para o VS Code](https://github.com/slidevjs/slidev-vscode)
+- 🎥 [**Gravação**](/guide/recording.html) - funcionalidade incluída para a gravação da apresentação bem como visão da tua câmera
+- 📤 [**Portátil**](/guide/exporting.html) - exporta para PDF, PNGs, ou hospeda online uma SPA
+- ⚡️ [**Rápido**](https://vitejs.dev) - referesh automático instantâneo fornecido por [Vite](https://vitejs.dev)
+- 🛠 [**Hackeavel**](/custom/config-vite.html) - usa plugins Vite, componentes Vue, ou qualquer package npm
 
-Slidev is made possible by combining these tools and technologies.
+### Stack Tecnológica
 
-- [Vite](https://vitejs.dev) - An extremely fast frontend tooling
-- [Vue 3](https://v3.vuejs.org/) powered [Markdown](https://daringfireball.net/projects/markdown/syntax) - Focus on the content while having the power of HTML and Vue components whenever needed
-- [Windi CSS](https://github.com/windicss/windicss) - On-demand utility-first CSS framework, style your slides at ease
-- [Prism](https://github.com/PrismJS/prism), [Shiki](https://github.com/shikijs/shiki), [Monaco Editor](https://github.com/Microsoft/monaco-editor) - First-class code snippets support with live coding capability
-- [RecordRTC](https://recordrtc.org) - Built-in recording and camera view
-- [VueUse](https://vueuse.org) family -  [`@vueuse/core`](https://github.com/vueuse/vueuse), [`@vueuse/head`](https://github.com/vueuse/head), [`@vueuse/motion`](https://github.com/vueuse/motion), etc.
-- [Iconify](https://iconify.design/) - Iconsets collection.
-- [KaTeX](https://katex.org/) - LaTeX math rendering.
-- [Mermaid](https://mermaid-js.github.io/mermaid) - Textual Diagrams.
+O **Slidev** é possível através da combinação das seguintes ferramentas e tecnologias.
 
-### Scaffolding Your First Presentation
+- [Vite](https://vitejs.dev) - Uma ferramenta de *front-end* extremamente rápida
+- [Vue 3](https://v3.vuejs.org/) com [Markdown](https://daringfireball.net/projects/markdown/syntax) - Foco no conteúdo, tendo ainda a possibilidade de utilizar componentes HTML e componentes Vue sempre que necessário
+- [Windi CSS](https://github.com/windicss/windicss) - framework CSS super útil, que permite dar estilo aos teus slides facilmente
+- [Prism](https://github.com/PrismJS/prism), [Shiki](https://github.com/shikijs/shiki), [Monaco Editor](https://github.com/Microsoft/monaco-editor) - Suporte a *snippets* de código, bem como a possibilidade de desenvolver código ao vivo
+- [RecordRTC](https://recordrtc.org) - Gravação integrada e visualização da tua câmera
+- Família [VueUse](https://vueuse.org) -  [`@vueuse/core`](https://github.com/vueuse/vueuse), [`@vueuse/head`](https://github.com/vueuse/head), [`@vueuse/motion`](https://github.com/vueuse/motion), etc.
+- [Iconify](https://iconify.design/) - coleções de ícones.
+- [KaTeX](https://katex.org/) - renderização de equações matemáticas em LaTeX.
+- [Mermaid](https://mermaid-js.github.io/mermaid) - Diagramas textuais.
 
-With NPM:
+### Começa a tua primeira apresentação
+
+Com NPM:
 
 ```bash
 $ npm init slidev
 ```
 
-With Yarn:
+Com Yarn:
 
 ```bash
 $ yarn create slidev
 ```
 
-Follow the prompts and start making your slides now! For more details about the markdown syntax, read through the [syntax guide](/guide/syntax).
+Segue as instruções e começa a fazer os teus slides agora! Para mais detalhes sobre a sintaxe em markdown, lê o [guia de sintaxe](/guide/syntex)
 
 ### Command Line Interface
 
