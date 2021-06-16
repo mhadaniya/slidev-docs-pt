@@ -6,7 +6,7 @@
 
 ## Componentes customizados
 
-Crie um diretório `components/` na pasta raíz do seu projeto, onde ficará os seus Vue componentes, então você conseguirá utilizá-los com o mesmo nome em seu arquivo markdown!
+Crie um diretório `components/` na pasta raíz do seu projeto, onde ficarão os seus Vue componentes, então você conseguirá utilizá-los com o mesmo nome em seu arquivo markdown!
 
 Leia mais na seção de [Customização](/custom/directory-structure#components).
 
