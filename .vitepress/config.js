@@ -167,7 +167,7 @@ const slidebars = [
 		text: 'Integrado',
 		children: [
 			{
-				text: 'Components',
+				text: 'Componentes',
 				link: '/builtin/components',
 			},
 			{
