@@ -6,7 +6,7 @@ O **Slidev** <sup>(slide + dev, `/slʌɪdɪv/`)</sup> é uma criador e apresenta
 
 Este usa um arquivo Markdown rico em recursos que permite gerar slides bonitos com *refresh* automático instantâneo, junto com várias integrações possíveis, desde desenvolvimento de código ao vivo, exportação pada PDF, gravação da apresentação, entre outros. Como o **Slidev** tem como por base tecnologias web é possível fazer qualquer coisa, a tua imaginação é o limite.
 
-Para saber mais sobre a lógica por baixo dos panos basta aceder à secção [Why Slidev](/guid/why).
+Para saber mais sobre a lógica por baixo dos panos basta aceder à secção [Why Slidev](/guide/why).
 
 
 ### Funcionalidades

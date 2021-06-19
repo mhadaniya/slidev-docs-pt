@@ -10,7 +10,7 @@ const Guide = [
 		link: '/guide/',
 	},
 	{
-		text: 'Instalar',
+		text: 'Instalação',
 		link: '/guide/install',
 	},
 	{
